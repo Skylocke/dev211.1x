@@ -1,0 +1,19 @@
+p {
+	font-style: italic;
+}
+
+article p {
+	font-size: x-small;
+}
+
+article > p {
+	color: #ff0000;
+}
+
+article > section > p {
+	color: #0000ff;
+}
+
+article > section > p:last-child {
+	font-weight: bold;
+}
