@@ -74,3 +74,21 @@ article {
 	padding: 5px 5px;
 	box-shadow: -1px -1px 6px #888888;
 }
+
+@media print {
+	header {
+		padding: 0px;
+	}
+	article {
+		box-shadow: none;
+	}
+
+	header h1 {
+		font-size: 2em;
+	}
+
+	header h2 {
+		display: none;
+	}
+
+}
